@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>{{$t("message.hello")}}</h2>
     <ul>
       <router-link to='/' tag="li">home</router-link>
       <router-link to='/about' tag="li">about</router-link>
