@@ -18,7 +18,6 @@ let COUNT = 0;
  */
 module.exports = webpackConfig => {
   const result = [];
-  // const entryNames = ['index'];
   const ASSETS_ROOT = webpackConfig.output.path;
 
   TOTAL = (langs.length || 1) * (routes.length || 1);
