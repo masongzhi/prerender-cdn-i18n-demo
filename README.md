@@ -1,5 +1,7 @@
 # prerender-cdn-i18n-demo
 
+[![Join the chat at https://gitter.im/masongzhi/prerender-cdn-i18n-demo](https://badges.gitter.im/masongzhi/prerender-cdn-i18n-demo.svg)](https://gitter.im/masongzhi/prerender-cdn-i18n-demo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > A Vue.js project
 
 ## Build Setup
