@@ -75,7 +75,11 @@ module.exports = webpackConfig => {
               `$1${CDN_PATH}$2$3`
             )
             .replace(
-              /(<[source|video|img][^<>]*src=\")((?!http|https|data:image)[^<>\"]*)(\"[^<>]*>)/gi,
+              /(<source[^<>]*src=\")((?!http|https|data:image)[^<>\"]*)(\"[^<>]*>)/gi,
+              `$1${CDN_PATH}$2$3`
+            )
+            .replace(
+              /(<video[^<>]*src=\")((?!http|https|data:image)[^<>\"]*)(\"[^<>]*>)/gi,
               `$1${CDN_PATH}$2$3`
             );
 
